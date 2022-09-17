@@ -19,7 +19,6 @@
         padding: 0 80px;
         font-weight: bold;
     }
-
 }
 
 .navLogo { grid-area: navLogo;    display: flex;
@@ -65,17 +64,14 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;}
+
 .indexImg-h1 { 
     grid-area: indexImg-h1;
-    background-color: red;
     display: flex;        
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
 }
-
-
-
 
 .grid-container-hero-2 {
     display: grid;
@@ -86,6 +82,9 @@
     grid-template-areas:
     "appTitulo-h2 appTitulo-h2 appTitulo-h2"
     "appStep1-h2 appStep2-h2 appStep3-h2";
+    h1{
+        color: white;
+    }
 
 }
 .appTitulo-h2 { grid-area: appTitulo-h2;text-align: center; }
@@ -100,12 +99,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 5px 5px;
+    justify-content: center;
+    justify-items: center;
+    margin: 30px;
     grid-template-areas:
     "appBenef-h3 appBenef-h3 appBenef-h3"
     "app1-h3 appImg-h3 app2-h3"
     "app3-h3 appImg-h3 app4-h3";
   }
-.appBenef-h3 { grid-area: appBenef-h3; }
+.appBenef-h3 { grid-area: appBenef-h3;display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; }
+
 .appImg-h3 { 
     grid-area: appImg-h3;
 
@@ -114,7 +121,34 @@
         width: 300px;
     } 
 }
-.app1-h3 { grid-area: app1-h3; }
-.app2-h3 { grid-area: app2-h3; }
-.app3-h3 { grid-area: app3-h3; }
-.app4-h3 { grid-area: app4-h3; }
+.app1-h3 { grid-area: app1-h3;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; }
+
+.app2-h3 { grid-area: app2-h3;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; }
+
+.app3-h3 { grid-area: app3-h3;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; }
+
+.app4-h3 { grid-area: app4-h3;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; }
