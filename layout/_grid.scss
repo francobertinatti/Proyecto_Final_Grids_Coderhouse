@@ -1,0 +1,120 @@
+.grid-container-nav {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas:
+    "navLogo navMenu navBuscador";
+    background-color: #1a2732;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+
+    .navMenu li{
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+
+    .navLogo{
+        color: #ffff;
+        font-size: 40px;
+        padding: 0 80px;
+        font-weight: bold;
+    }
+
+}
+
+.navLogo { grid-area: navLogo;    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+.navMenu { grid-area: navMenu; display: flex;     display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+.navBuscador { grid-area: navBuscador;    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+
+.navMenu li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.grid-container-hero-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+    align-content: stretch;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+    "indexContenido-h1 indexImg-h1";
+
+    img{
+        display: flex;
+        width: 500px;
+    }
+    
+}
+.indexContenido-h1 { 
+    grid-area: indexContenido-h1; 
+    display: flex;        
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;}
+.indexImg-h1 { 
+    grid-area: indexImg-h1;
+    background-color: red;
+    display: flex;        
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+
+.grid-container-hero-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    gap: 0px 0px;
+    background-color: orange;
+    grid-template-areas:
+    "appTitulo-h2 appTitulo-h2 appTitulo-h2"
+    "appStep1-h2 appStep2-h2 appStep3-h2";
+
+}
+.appTitulo-h2 { grid-area: appTitulo-h2;text-align: center; }
+.appStep1-h2 { grid-area: appStep1-h2; text-align: center}
+.appStep2-h2 { grid-area: appStep2-h2;text-align: center }
+.appStep3-h2 { grid-area: appStep3-h2;text-align: center }
+
+
+
+.grid-container-hero-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px 5px;
+    grid-template-areas:
+    "appBenef-h3 appBenef-h3 appBenef-h3"
+    "app1-h3 appImg-h3 app2-h3"
+    "app3-h3 appImg-h3 app4-h3";
+  }
+.appBenef-h3 { grid-area: appBenef-h3; }
+.appImg-h3 { 
+    grid-area: appImg-h3;
+
+    img{
+        display: flex;
+        width: 300px;
+    } 
+}
+.app1-h3 { grid-area: app1-h3; }
+.app2-h3 { grid-area: app2-h3; }
+.app3-h3 { grid-area: app3-h3; }
+.app4-h3 { grid-area: app4-h3; }

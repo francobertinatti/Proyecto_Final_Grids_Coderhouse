@@ -1,0 +1,229 @@
+// Breakpoint 	        Class infix 	Dimensions
+// Extra small 	        None 	        <576px
+// Small 	            sm 	            ≥576px
+// Medium 	            md 	            ≥768px
+// Large 	            lg 	            ≥992px
+// Extra large 	        xl 	            ≥1200px
+// Extra extra large 	xxl 	        ≥1400px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media screen and (max-width: 576px){
+//     .grid-container-funSistem{
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         grid-template-rows: repeat(4, 1fr);
+//         gap: 7px 0px;
+//         grid-template-areas:
+//         "header-funSistem"
+//         "icon1-img1-funSistem"
+//         "img-Principal-funSistem"
+//         "icon2-img2-funSistem";
+// }
+// .header-funSistem { grid-area: header-funSistem; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap; flex-direction: column;align-content: stretch;;}
+// .icon1-img1-funSistem { grid-area: icon1-img1-funSistem; display: flex;align-items: stretch; justify-content: space-between; flex-direction: column;}
+// .img-Principal-funSistem { grid-area: img-Principal-funSistem; display: flex;    align-items: stretch; justify-content: center; flex-direction: column;}
+// .icon2-img2-funSistem { grid-area: icon2-img2-funSistem; display: flex;     align-items: stretch; justify-content: space-between; flex-direction: column;}
+
+//     .vertical-icon-item{
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+//     }
+//     .p-vertical-app{
+//         size: 1em;
+//     }
+
+// .container-Team-grid{
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         grid-template-rows: repeat(4, 0.3fr);
+//         height: 100%;
+//         gap: 7px 0px;
+//         margin-top: 20%;
+//         grid-template-areas:
+//         "titulo-pagEquipo"
+//         "img-pagEquipo"
+//         "contenido-pagEquipo"
+//         "btn-pagEquipo";
+// }
+// .titulo-pagEquipo { grid-area: titulo-pagEquipo; display: flex;}
+// .img-pagEquipo { grid-area: img-pagEquipo; display: flex;}
+// .contenido-pagEquipo { grid-area: contenido-pagEquipo; display: flex;}
+// .btn-pagEquipo { grid-area: btn-pagEquipo; display: flex;}
+
+
+// .container-Blog-Grid {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 1fr 0.8fr 1.2fr 1fr;
+//     gap: 1em 1em;
+//     grid-template-areas:
+//     "blog-Main"
+//     "blog-Table"
+//     "blog-Img"
+//     "blog-Contenido";
+// }
+// .blog-Table { grid-area: blog-Table;display: flex; }
+// .blog-Img { grid-area: blog-Img; }
+// .blog-Main { grid-area: blog-Main; }
+// .blog-Contenido { grid-area: blog-Contenido; }
+// footer{
+//     width: 20em;
+// }
+
+// .navMenu{
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+
+// }
+// }
+
+// @media(min-width: 700px) {
+//     body .content{
+//         padding: 0 4em;
+//     }
+//     .contact-wrapper {
+//         display: grid;
+//         grid-template-columns: 2fr 1fr;
+//     }
+//     .contact-wrapper > * {
+//         padding: 2em;
+//     }
+//     .contact-info h4,
+//     .contact-info ul,
+//     .contact-info p {
+//         text-align: left;
+//     }
+// }
+
+
+
+// @media only screen and (max-width: 768px){
+//     .navMenu{
+//         height: 65px;
+//     }
+
+//     .span_btn_menu{
+//         display: inline-flex;
+//     }
+//     .ul_menu_items{
+//         position: fixed;
+//         width: 100vw;
+//         height: calc(100% - 65px);
+//         top: -100vh;
+//         text-align: center;
+//         transition: all .4s;
+//         flex-direction: column;
+//     }
+
+//     .ul_menu_items li{
+//         margin: 30px 0 0 0;
+//         line-height: 30px;
+//     }
+//     .ul_menu_items li:hover{
+//         background: none;
+//     }
+
+//     .ul_menu_items li a{
+//         font-size: 20px;
+//         color: white;
+//         font-weight: bold;
+//     }
+//     .ul_menu_items li a:hover{
+//         color: royalblue;
+//     }
+//     .lbl_Logo{
+//         font-size: 25px;
+//         padding-left: 35px;
+//     }
+//     .container-Team-grid{
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         grid-template-rows: repeat(4, 0.3fr);
+//         height: 100%;
+//         gap: 7px 0px;
+//         margin-top: 20%;
+//         grid-template-areas:
+//         "titulo-pagEquipo"
+//         "img-pagEquipo"
+//         "contenido-pagEquipo"
+//         "btn-pagEquipo";}
+
+// .titulo-pagEquipo { grid-area: titulo-pagEquipo; display: flex;}
+// .img-pagEquipo { grid-area: img-pagEquipo; display: flex;}
+// .contenido-pagEquipo { grid-area: contenido-pagEquipo; display: flex;}
+// .btn-pagEquipo { grid-area: btn-pagEquipo; display: flex;}
+
+// footer{
+//     width: 95vh;
+// }
+
+
+// }
+
+
+
+
+
+// @media screen and (max-width: 1024px){
+
+//     .navMenu{
+//         height: 65px;
+//     }
+//     .imagenPrincipal img{
+//         display: none;
+//     }
+
+//     .lbl_Logo{
+//         font-size: 25px;
+//         padding-left: 35px;
+//     }
+    
+//     div.grid-3-pasos{
+//         display: block;
+//         align-items: center;
+//         align-self:flex-start;
+//         margin: 5%;
+//         width: fit-content;
+//     }
+//     .imagenPrincipal img{
+//         display: none;
+//     }
+// }
